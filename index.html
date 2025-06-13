@@ -1,0 +1,169 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <link reL= "Icone" href= "Icone/html-5.png" type="image/x-Icone">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Mi portafolio personal </title>
+ </head>
+ <body>
+<div class="navegacion" id="navegacion">
+<aside class="menu">
+  <img src="Icone/icone-2.jpg" alt="Avatar" id="img" > 
+   <h2>Stefany</h2>
+   <br>
+   <nav>
+    <ul>
+      <li><a href="#Inicio" id="inicio-nav"> Inicio</a></li>
+      <li><a href="#sobremi">Sobre mi</a></li>
+      <li><a href="#proyectos">proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+   </nav>
+</aside>
+</div>
+<main class="contenido">
+  <div class="cuerpo">
+  <section class="bienvenida" id="Inicio" data-aos="fade-up">
+    <h3> Welcome </h3>
+    <h2>Hola, soy Stefany</h2>
+    <br>
+       <p>Ecuador-Quito</p>
+       <br>
+        <a href="#sobremi" class="boton">Conoceme</a>
+        <a href="#proyectos" class="boton">Proyectos</a>
+     </div>
+  </section>
+
+
+  <section id="sobremi" class="sobreMi" > 
+      <h2>Sobre mi</h2>
+      <div class="texto">
+        <img src="Icone/Stefany1.jpg" alt="fotox" class="Stefany">
+        <p>
+           ¡Hola! Soy Stefany Montenegro estudiante de tercer semestre de la universidad Tecnica de Babahoyo en la Carrera de SIstemas de la Informacion.Me gusta el diseño web moderno, visual y funcional.
+        Aquí puedes ver parte de mi estilo y mis proyectos personales como tambien un poco de mi esencia como persona. Cada imagen representa una idea
+        que he desarrollado con dedicación y creatividad. <br> <br> Durante todo mi tiempo de la universidad espero participar en vario proytectos que extiendan mi conocimientos
+        </p>
+      </div>
+      <ul>
+        <li>💻 Frontend Developer</li>
+        <li>🎨 Amante del diseño elegante</li>
+        <li>📸 Creativa en constante evolución</li>
+       </ul>
+  </div>
+  <div class="galeriaseccion">
+    <h2>Galeria de fotos </h2>
+  <div class="galeria" id="Fotos">
+<img src="Icone/Galeria1.jpg" alt="Foto">
+<img src="Icone/Calculadora.png" alt="Foto2">
+<img src="Icone/Esp32.jpg" alt="Foto3">
+<img src="Icone/galeria2.jpg" alt="Foto4">
+<img src="Icone/galeria3.jpg" alt="Foto5">
+<img src="Icone/galeria4.png" alt="Foto6">
+  </div>
+  </div>
+</section>
+ <section id="proyectos" class="proyectos">
+    <h2 class="subrayado">Mis proyectos</h2>
+    <ul class="lista-proyectos-tarjetas"> <li class="proyecto-tarjeta">
+            <div class="imagen-proyecto-wrapper">
+                <img src="Icone/Proyectos.png" alt="Miniatura Portafolio Personal">
+            </div>
+            <div class="contenido-proyecto">
+                <h3>Portafolio Personal</h3>
+                <p class="descripcion-proyecto">
+                    Mi sitio web personal diseñado para mostrar mis habilidades de desarrollo frontend y mis proyectos creativos.
+                </p>
+                <div class="tags-proyecto">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    
+                </div>
+                </div>
+        </li>
+
+        <li class="proyecto-tarjeta">
+            <div class="imagen-proyecto-wrapper">
+                <img src="Icone/Captura de pantalla 2025-05-23 143813.png" alt="Miniatura Calculadora">
+            </div>
+            <div class="contenido-proyecto">
+                <h3>Google Maps</h3>
+                <p class="descripcion-proyecto">
+                    Un API de Google Cloud que nos permite ver solo las direcciones de las veterinarias de Babahoyo-Ecu
+                </p>
+                <div class="tags-proyecto">
+                    <span class="tag">Google Cloud</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript </span>
+                </div>
+            </div>
+        </li>
+
+        <li class="proyecto-tarjeta">
+            <div class="imagen-proyecto-wrapper">
+                <img src="Icone/Captura de pantalla 2025-06-12 191358.png" alt="Miniatura Heroico Frifrayer">
+            </div>
+            <div class="contenido-proyecto">
+                <h3>Pagina Web </h3>
+                <p class="descripcion-proyecto">
+                    Pagina Web dedicada a una fundacion que nos permite facilitar las adopciones y asesoria a los usuarios 
+                </p>
+                <div class="tags-proyecto">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                   <span class="tag">JavaScript</span>
+                </div>
+            </div>
+        </li>
+        </ul>
+</section>
+
+ <section id="contacto" class="contacto">
+    <h2>Contáctame</h2> <p class="subtitulo-contacto">
+        ¿Interesado en colaborar o tienes alguna pregunta? ¡No dudes en contactarme!
+    </p>
+
+    <div class="contenedor-contacto-columnas"> <div class="info-contacto"> <h3>Información de contacto</h3>
+            <div class="item-contacto">
+                <i class="fa-solid fa-envelope icono-contacto"></i> <span>smontenegrog@fafi.utb.edu.ec</span>
+            </div>
+            </div>
+
+        <div class="formulario-contacto"> <form>
+                <div class="campo-form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu Nombre">
+                </div>
+
+                <div class="campo-form">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required placeholder="tu.correo@ejemplo.com">
+                </div>
+
+                <div class="campo-form">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+      <footer>
+    <p>&copy; 2025 Stefany. Todos los derechos reservados.</p>
+    <p><a href="https://github.com/">GitHub</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a></p>
+  </footer>
+</main>
+ </div> 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ </body>
+ </html>
